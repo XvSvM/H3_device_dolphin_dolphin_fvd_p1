@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from dolphin_fvd_p1 device
 $(call inherit-product, device/dolphin/dolphin_fvd_p1/device.mk)
 
 PRODUCT_DEVICE := dolphin_fvd_p1
-PRODUCT_NAME := omni_dolphin_fvd_p1
+PRODUCT_NAME := twrp_dolphin_fvd_p1
 PRODUCT_BRAND := TVBOX
 PRODUCT_MODEL := TVBOX
 PRODUCT_MANUFACTURER := dolphin
