@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_dolphin.mk
+    $(LOCAL_DIR)/twrp_dolphin.mo
 
 COMMON_LUNCH_CHOICES := \
     twrp_dolphin-user \
