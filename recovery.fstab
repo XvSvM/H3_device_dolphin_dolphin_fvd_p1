@@ -11,4 +11,4 @@
 /verity_block   emmc        /dev/block/by-name/verity_block                             flags=backup=1;display=Verity_block
 /extsd          vfat        /dev/block/mmcblk1p1                                        flags=wipeingui;storage;removable;display="External SD" 
 /usbhost        vfat        /dev/block/sda1                                             flags=display="USB OTG";removable;storage
- /Reserve0	    vfat        /dev/block/by-name/Reserve0                                 flags=backup=1;display=Reserve0
+/Reserve0	    vfat        /dev/block/by-name/Reserve0                                 flags=backup=1;display=Reserve0
