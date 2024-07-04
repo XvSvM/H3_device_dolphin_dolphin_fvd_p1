@@ -4,6 +4,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-add_lunch_combo twrp_dolphin-user
-add_lunch_combo twrp_dolphin-userdebug
-add_lunch_combo twrp_dolphin-eng
+add_lunch_combo omni_dolphin-user
+add_lunch_combo omni_dolphin-userdebug
+add_lunch_combo omni_dolphin-eng
