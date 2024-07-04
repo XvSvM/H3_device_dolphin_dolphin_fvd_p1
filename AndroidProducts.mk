@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_dolphin.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_dolphin-user \
-    twrp_dolphin-userdebug \
-    twrp_dolphin-eng
+   twrp_dolphin-user \
+   twrp_dolphin-userdebug \
+   twrp_dolphin-eng
