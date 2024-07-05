@@ -1,20 +1,15 @@
-# Android fstab file.
-#<src>                                         <mnt_point>  <type>  <mnt_flags and options>  <fs_mgr_flags>
-# The filesystem that contains the filesystem checker binary (typically /system) cannot
-# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
-
-/dev/block/by-name/bootloader         /bootloader     vfat    defaults                                                        defaults
-/dev/block/by-name/env                /env            emmc    defaults                                                        defaults
-/dev/block/by-name/boot               /boot           emmc    defaults                                                        defaults
-/dev/block/by-name/system             /system         ext4    defaults                                                        defaults
-/dev/block/by-name/UDISK              /data           ext4    defaults                                                        defaults
-/dev/block/by-name/misc               /misc           emmc    defaults                                                        defaults
-/dev/block/by-name/recovery           /recovery       emmc    defaults                                                        defaults
-/dev/block/by-name/cache              /cache          ext4    defaults                                                        defaults
-/dev/block/mmcblk1p1                  /extsd          vfat    defaults                                                        defaults
-/dev/block/mmcblk1                    /extsd          vfat    defaults                                                        defaults
-/dev/block/mmcblk0p1                  /extsd          vfat    defaults                                                        defaults
-/dev/block/mmcblk0                    /extsd          vfat    defaults                                                        defaults
-/dev/block/sda1                       /usbhost        vfat    defaults                                                        defaults
-/dev/block/sda                        /usbhost        vfat    defaults                                                        defaults
-/dev/block/by-name/Reserve0			/Reserve0		vfat		defaults     defaults
+/bootloader     vfat     /dev/block/by-name/bootloader     flags=display=bootloader
+/env            emmc     /dev/block/by-name/env            flags=display=env
+/boot           emmc     /dev/block/by-name/boot           flags=display=boot
+/system         ext4     /dev/block/by-name/system         flags=display=system
+/data           ext4     /dev/block/by-name/UDISK          flags=display=data
+/misc           emmc     /dev/block/by-name/misc           flags=display=misc
+/recovery       emmc     /dev/block/by-name/recovery       flags=display=recovery
+/cache          ext4     /dev/block/by-name/cache          flags=display=cache
+/extsd          vfat     /dev/block/mmcblk1p1              flags=display=extsd
+/extsd          vfat     /dev/block/mmcblk1                flags=display=extsd
+/extsd          vfat     /dev/block/mmcblk0p1              flags=display=extsd
+/extsd          vfat     /dev/block/mmcblk0                flags=display=extsd
+/usbhost        vfat     /dev/block/sda1                   flags=display=usbhost
+/usbhost        vfat     /dev/block/sda                    flags=display=usbhost
+/Reserve0       vfat     /dev/block/by-name/Reserve0       flags=display=Reserve0
