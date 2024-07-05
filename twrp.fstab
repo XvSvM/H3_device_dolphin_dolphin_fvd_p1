@@ -1,0 +1,14 @@
+/bootloader     vfat        /dev/block/by-name/bootloader                               flags=backup=1;display=Bootloader 
+/env            emmc        /dev/block/by-name/env                                      flags=backup=1;display=Env
+/misc           emmc        /dev/block/by-name/misc                                     flags=backup=1;display=Misc                                    
+/recovery       emmc        /dev/block/by-name/recovery                                 flags=backup=1;display=Recovery     
+/boot           emmc        /dev/block/by-name/boot                                     flags=backup=1;display=Boot        
+/cache          ext4        /dev/block/by-name/cache                                    flags=backup=1;display=Cache       
+/system         ext4        /dev/block/by-name/system                                   flags=backup=1;display=System      
+/data           ext4        /dev/block/by-name/UDISK                                    flags=backup=1;display=Data
+/Reserve0	    vfat        /dev/block/by-name/Reserve0                                 flags=backup=1;display=Reserve0
+/alog           emmc        /dev/block/by-name/alog                                     flags=backup=1;display=Alog
+/private        emmc        /dev/block/by-name/private                                  flags=backup=1;display=Private
+/verity_block   emmc        /dev/block/by-name/verity_block                             flags=backup=1;display=Verity_block
+/extsd          vfat        /dev/block/mmcblk1p1                                        flags=wipeingui;storage;removable;display="External SD" 
+/usbhost        vfat        /dev/block/sda1                                             flags=display="USB OTG";removable;storage
