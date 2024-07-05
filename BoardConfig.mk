@@ -84,5 +84,3 @@ TW_INCLUDE_CRYPTO := true
 TW_THEME := landscape_mdpi
 TW_HAVE_SELINUX := true
 TW_ALWAYS_RMRF := true
-TW_INTERNAL_STORAGE_PATH := "/sdcard"
-TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
