@@ -9,3 +9,4 @@
 /cache         ext4        /dev/block/mmcblk0p11   flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
 /sdcard        vfat        /dev/block/mmcblk0p1    flags=backup=1;storage;settingsstorage;display="SDCard";wipeingui 
 /extsd         vfat        /dev/block/mmcblk1p1    flags=backup=1;storage;display="extsd";wipeingui;removable
+/usbhost        vfat        /dev/block/sda1                                             flags=display="USB OTG";removable;storage
