@@ -83,6 +83,6 @@ TW_NO_SCREEN_TIMEOUT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_CRYPTO := true
 TW_THEME := landscape_hdpi
-TW_HAVE_SELINUX := true
+TWHAVE_SELINUX := true
 TW_ALWAYS_RMRF := true
 TW_EXCLUDE_MTP := true
