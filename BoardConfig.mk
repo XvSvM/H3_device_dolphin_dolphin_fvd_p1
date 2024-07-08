@@ -86,3 +86,4 @@ TW_THEME := landscape_hdpi
 TWHAVE_SELINUX := true
 TW_ALWAYS_RMRF := true
 #TW_EXCLUDE_MTP := true
+TW_DEVICE_VERSION := D.S.P.G
