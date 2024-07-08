@@ -85,4 +85,4 @@ TW_INCLUDE_CRYPTO := true
 TW_THEME := landscape_hdpi
 TWHAVE_SELINUX := true
 TW_ALWAYS_RMRF := true
-TW_EXCLUDE_MTP := true
+#TW_EXCLUDE_MTP := true
