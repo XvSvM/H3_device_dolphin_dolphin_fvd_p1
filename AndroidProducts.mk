@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_dolphin.mk
+    $(LOCAL_DIR)/twrp_dolphin.mk
 
 COMMON_LUNCH_CHOICES := \
-   omni_dolphin-user \
-   omni_dolphin-userdebug \
-   omni_dolphin-eng
+   twrp_dolphin-user \
+   twrp_dolphin-userdebug \
+   twrp_dolphin-eng
