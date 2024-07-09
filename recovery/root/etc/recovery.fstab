@@ -17,4 +17,4 @@
 /dev/block/mmcblk0                    /extsd          vfat    defaults                                                        defaults
 /dev/block/sda1                       /usbhost        vfat    defaults                                                        defaults
 /dev/block/sda                        /usbhost        vfat    defaults                                                        defaults
-/dev/block/by-name/Reserve0			/Reserve0		vfat		defaults     defaults
+/dev/block/by-name/Reserve0			 /Reserve0		  vfat    defaults                                                        defaults
