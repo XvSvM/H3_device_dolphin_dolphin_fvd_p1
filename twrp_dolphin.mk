@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/dolphin/dolphin_fvd_p1/device.mk)
 
 PRODUCT_DEVICE := dolphin_fvd_p1
-PRODUCT_NAME := omni_dolphin
+PRODUCT_NAME := twrp_dolphin
 PRODUCT_BRAND := TVBOX
 PRODUCT_MODEL := TVBOX
 PRODUCT_MANUFACTURER := dolphin
