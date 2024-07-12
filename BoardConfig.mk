@@ -61,5 +61,3 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_DEVICE_VERSION := MXQ-HX-V2.0
 TW_THEME := landscape_hdpi
-TW_INCLUDE_FB2PNG := false
-
